@@ -5,6 +5,8 @@ There are no official relationship with Nexon.<br />
 This game is not for commercial purpose.<br />
 The game uses assets from Blue Archive GLOBAL.<br />
 
+[WEBSITE FOR THIS FANGAME](https://moozaart.github.io/Blue-Archive-Fanmade-Shooter/)
+
 [Gameplay Video](https://youtu.be/s_Zi8_lWg-s)
 
 [Download from Dropbox](https://www.dropbox.com/scl/fi/sj8o5r58kpktnpt52lksa/Blue-Archive-Fanmade-Shooter.rar?rlkey=o1d3qtpo9etfgdtuyuj61gf6u&dl=0)
@@ -32,9 +34,9 @@ The game uses assets from Blue Archive GLOBAL.<br />
 
 ## Screenshots
 
-![](/01.jpg)
-![](/02.jpg)
-![](/03.jpg)
-![](/04.jpg)
-![](/05.jpg)
-![](/06.jpg)
+![](docs/res/images/01.jpg)
+![](docs/res/images/02.jpg)
+![](docs/res/images/03.jpg)
+![](docs/res/images/04.jpg)
+![](docs/res/images/05.jpg)
+![](docs/res/images/06.jpg)
