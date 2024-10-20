@@ -9,8 +9,6 @@ The game uses assets from Blue Archive GLOBAL.<br />
 
 [Gameplay Video](https://youtu.be/s_Zi8_lWg-s)
 
-[Download](https://moozaart.github.io/Blue-Archive-Fanmade-Shooter/)
-
 > **TRANSFER SAVES**<br />
 > Save file stored at `path_to_game_folder/Blue Archive Fanmade Shooter_Data/save.data`<br />
 > Move it from old version to new for saving unlocked students.<br />

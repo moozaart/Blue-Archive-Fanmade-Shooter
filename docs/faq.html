@@ -162,53 +162,87 @@ body {
     <!--HEADER END-->
     <div class="container">
         <div class="row">
-          	<h2 class="text-center g-3">Questions and answers</h2>
+          	<div itemscope itemtype="https://schema.org/FAQPage">
+<h2 class="text-center g-3">Questions and answers</h2>
 
-<div class="col col-12" id="why">
+<div class="col col-12" id="why" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
   <div class="card mt-3" style="max-width: 700px;margin-left:auto;margin-right:auto;">
-    <div class="card-header">
+    <div class="card-header" itemprop="name">
       Why am I even making this fangame.
     </div>
-    <div class="card-body">
+    <div class="card-body" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <div itemprop="text">
     For me, this is a way to test the effectiveness of a number of complex decisions in the code.<br>
 I follow the principle "Anything can be made from anything", that from the resources of one game it is possible to make another, which, if possible, will retain the features of the first.
+      </div>
     </div>
   </div>
 </div>
 
-<div class="col col-12" id="plans">
+<div class="col col-12" id="plans" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
   <div class="card mt-3" style="max-width: 700px;margin-left:auto;margin-right:auto;">
-    <div class="card-header">
+    <div class="card-header" itemprop="name">
       Plans for game development.
     </div>
-    <div class="card-body">
+    <div class="card-body" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <div itemprop="text">
     I plan to make up to 3 game modes:
 <ol>
   <li>Missions</li>
   <li>Boss fight</li>
   <li>The third one will remain a secret for now since its development is still in question.</li>
 </ol>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="col col-12" id="icons">
+<div class="col col-12" id="how_to_shoot" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
   <div class="card mt-3" style="max-width: 700px;margin-left:auto;margin-right:auto;">
-    <div class="card-header">
+    <div class="card-header" itemprop="name">
+      How to shoot?
+    </div>
+    <div class="card-body" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <div itemprop="text">
+    Aim with <kbd>RMB</kbd>, then shoot with <kbd>LMB</kbd>.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col col-12" id="icons" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <div class="card mt-3" style="max-width: 700px;margin-left:auto;margin-right:auto;">
+    <div class="card-header" itemprop="name">
       What this icon <img src="/Blue-Archive-Fanmade-Shooter/res/images/icons/use_cover.jpg" /> mean?
     </div>
-    <div class="card-body">
+    <div class="card-body" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <div itemprop="text">
     This icon means that the student can use cover by <kbd>F</kbd>.
+      </div>
     </div>
   </div>
 </div>
 
-<div class="col col-12" id="add_student">
+<div class="col col-12" id="icons" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
   <div class="card mt-3" style="max-width: 700px;margin-left:auto;margin-right:auto;">
-    <div class="card-header">
+    <div class="card-header" itemprop="name">
+      What this icon <img src="/Blue-Archive-Fanmade-Shooter/res/images/icons/use_jump.jpg" /> mean?
+    </div>
+    <div class="card-body" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <div itemprop="text">
+    This icon means that the student can jump over some small obstacles using <kbd>SPACE</kbd>.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col col-12" id="add_student" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <div class="card mt-3" style="max-width: 700px;margin-left:auto;margin-right:auto;">
+    <div class="card-header" itemprop="name">
       Adding new students.
     </div>
-    <div class="card-body">
+    <div class="card-body" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <div itemprop="text">
     There are no plans to add new students for the following reasons:
 <ul>
   <li>Students with the main types of weapons have already been added to the game and therefore adding new students will not change anything in the gameplay (it will only add headaches if <a href="#skills">skills</a> are added).</li>
@@ -216,65 +250,75 @@ I follow the principle "Anything can be made from anything", that from the resou
   <li>Students with Bolt-action Rifle (such as Ui, Hasumi, Koharu, etc.) are currently impossible to balance. I think this will be possible in the future, but not now.</li>
   <li>Hibiki (Mortar Launcher)... I don't see a way to add her.</li>
 </ul>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="col col-12" id="shooting_and_reload_on_move">
+<div class="col col-12" id="shooting_and_reload_on_move" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
   <div class="card mt-3" style="max-width: 700px;margin-left:auto;margin-right:auto;">
-    <div class="card-header">
+    <div class="card-header" itemprop="name">
       Shooting and reloading on the move.
     </div>
-    <div class="card-body">
+    <div class="card-body" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <div itemprop="text">
     At the current stage it is not planned, in the future I don't know.<br>
 Firstly, in the original game, characters shoot and reload while standing still.<br>
 Secondly, in the original game there are no animations for this, and creating animations through code is not possible at the moment.<br>
 Balancing and improving the gaming experience will be done through other methods.
+      </div>
     </div>
   </div>
 </div>
 
-<div class="col col-12" id="skills">
+<div class="col col-12" id="skills" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
   <div class="card mt-3" style="max-width: 700px;margin-left:auto;margin-right:auto;">
-    <div class="card-header">
+    <div class="card-header" itemprop="name">
       About adding skills and EX skills.
     </div>
-    <div class="card-body">
+    <div class="card-body" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <div itemprop="text">
     I would like to add them and initially there were such plans, but everything turned out to be not so simple.<br>
 In the original game, the skills are designed for the camera above the battlefield. With the camera from behind the back, it will be quite problematic to make normal aiming for AOE attacks.<br>
 Some skills are simply an enhanced shot that will be extremely ineffective against ordinary enemies, it will work against bosses, but there are none now.<br>
 I could go on and on, but these are the main reasons why there are no skills.<br>
 Even if they are added to the game, it is likely that they will differ from the original.
+      </div>
     </div>
   </div>
 </div>
 
-<div class="col col-12" id="android">
+<div class="col col-12" id="android" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
   <div class="card mt-3" style="max-width: 700px;margin-left:auto;margin-right:auto;">
-    <div class="card-header">
+    <div class="card-header" itemprop="name">
       Can I play on Android?
     </div>
-    <div class="card-body">
+    <div class="card-body" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <div itemprop="text">
     <b>No, PC only.</b> The main reason is the problem of adapting the controls to the touchscreen. I don't see a way to make the game playable on a phone without fundamentally changing the basic principles of the game.
 <br><br>
 If you think you know how to do it, you are just imagining it.
+      </div>
     </div>
   </div>
 </div>
 
-<div class="col col-12" id="difficulty">
+<div class="col col-12" id="difficulty" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
   <div class="card mt-3" style="max-width: 700px;margin-left:auto;margin-right:auto;">
-    <div class="card-header">
+    <div class="card-header" itemprop="name">
       The game is difficult.
     </div>
-    <div class="card-body">
+    <div class="card-body" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <div itemprop="text">
     Until you understand the character's tactics, it really seems like that.<br>
 I'm not going to make the game easier on purpose by adding HP or defense to the characters, but after adding some new mechanics it will gradually become easier.<br>
 Perhaps in the future it will even have to be made more difficult, at least Haruka will definitely need to be nerfed.
+      </div>
     </div>
   </div>
 </div>
 
+</div>
         </div>
         <!--FOOTER START-->
         <footer class="pt-4 my-md-5 border-top">
